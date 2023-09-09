@@ -31,9 +31,7 @@ export function ButtonLinkMovingRainbow(
   return (
     <a
       {...props}
-      class={tw`px-4 py-2 text-sm font-semibold text-white rounded ${rainbowBackground} ${
-        props.class || ""
-      }`}
+      class={tw`px-4 py-2 text-sm font-semibold text-white rounded ${rainbowBackground} `}
     />
   );
 }
