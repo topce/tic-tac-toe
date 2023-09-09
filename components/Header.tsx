@@ -9,7 +9,7 @@ export function Header(props: { user: User | null }) {
       <div class="flex justify-between items-center">
         <h1 class="text-4xl font-bold">Tic-Tac-Toe</h1>
         <a
-          href="https://github.com/denoland/tic-tac-toe"
+          href="https://github.com/topce/tic-tac-toe"
           class={`${linkClass} text-right`}
         >
           View on GitHub
